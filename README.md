@@ -1,1 +1,3 @@
-# basic-instagram-web-testing-using-testng
+Testing sample of instagram web using TestNG and Selenium with Java
+- Login test scenario
+- Valid login test case
