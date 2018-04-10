@@ -44,13 +44,16 @@ public class loginTest {
   //Will be executed before run each test section
   @BeforeTest
   public void beforeTest() {
+	  //Set property of chrome driver
 	  System.setProperty(keyChromeDriver, valueChromeDriver);
+	  //Create object of chrome driver
 	  driver = new ChromeDriver();
   }
   //Will be executed after run each test section
   @AfterTest
   public void afterTest() {
-	  driver.close();
+	  //Destroy the driver instance
+	  driver.quit();
   }
 
 }
